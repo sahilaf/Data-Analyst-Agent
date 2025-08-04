@@ -43,7 +43,11 @@ pip install -r requirements.txt
 3. Run the assistant agent:
 
 ```bash
-python agent.py
+cd frontend
+```
+
+```bash
+uv run chat_local.py
 ```
 
 4. Interact with the assistant via command line or (optionally) notebook interface.
@@ -53,16 +57,6 @@ python agent.py
 - `"Summarize the main trends in sales data from last year."`
 - `"Visualize the distribution of customer ages."`
 - `"Clean the dataset and remove rows with missing values."`
-
-## Project Structure
-
-```
-├── agent.py                   # Main agent entry point
-├── modules/                   # Analysis and utility modules
-├── data/                      # Sample datasets
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-```
 
 ## Contributing
 
@@ -80,3 +74,4 @@ This project is licensed under the MIT License.
 ## Contact
 
 For questions, suggestions, or support, please contact [sahilaf](https://github.com/sahilaf).
+
